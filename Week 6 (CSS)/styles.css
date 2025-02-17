@@ -1,0 +1,54 @@
+/* 1. Element Selector */
+h1 {
+    color: darkblue;
+    text-align: center;
+  }
+  /* 2. ID Selector */
+  #unique {
+    color: red;
+    font-weight: bold;
+  }
+  /* 3. Class Selector */
+  .highlight {
+    background-color: yellow;
+    padding: 5px;
+  }
+  /* 4. Group Selector */
+  h2, p {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  /* 5. Descendant Selector (applies to all <p> inside .parent) */
+  .parent p {
+    color: darkgreen;
+  }
+  /* 6. Child Selector (only direct children of .parent) */
+  .parent > .direct-child {
+    font-size: 18px;
+    color: darkred;
+  }
+  /* 7. Attribute Selector */
+  a[href] {
+    color: blue;
+    text-decoration: none;
+  }
+  input[type="text"] {
+    border: 2px solid black;
+    padding: 5px;
+  }
+  /* 8. Pseudo-Classes */
+  a:hover {
+    color: orange;
+    text-decoration: underline;
+  }
+  p:first-child {
+    font-weight: bold;
+  }
+  /* 9. Pseudo-Elements */
+  p.first-letter::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    color: darkblue;
+  }
+  
+  
