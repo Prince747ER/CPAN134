@@ -1,0 +1,16 @@
+/* External CSS */
+a {
+    color: purple;
+    font-size: 20px;
+    text-decoration: none;
+}
+ 
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: orange;
+    text-decoration: inline;
+    font-size: 30px;
+}
